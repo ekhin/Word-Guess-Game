@@ -1,0 +1,22 @@
+header {
+	background-color: #505050;
+}
+
+#title {
+	height: 100px;
+}
+
+
+.blink {
+	color: red;
+	text-align: center;
+}
+
+
+body {
+	background-color: #505050;
+}
+
+b {
+	color: yellow;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hangman Game</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+<body class="container">
+
+	<header>	
+		<div class="text-center">
+		  <img src="assets/images/Hangman-Logo-600x253.png" class="rounded" id="title">
+		</div>
+	</header>
+	<div class="blink" ><span id="blink"> Press any key to start the game</span></div>
+	<div class="body"></div>
+
+	<div id="guessTheWord" class="well span2 ">
+		<b id="word"></b>
+	</div>
+	<div id="guessLeft" class="well span2">
+		<b id="guessedTime"></b>
+		
+	</div>
+	<div id="winResult" class="well span2 ">
+		<b id="wins"></b>
+	</div>
+	<div id="loseResult" class="well span2 ">
+		<b id="loses"></b>
+	</div>
+	<div >
+		<b id="guessedChar"></b>
+	</div>
+</body>
+</html>
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+<script type="text/javascript">
+	// $(document).ready(function() {
+	//     setInterval(function() {
+	//     	document.getElementById('blink').style.visibility = (document.getElementById('blink').style.visibility == 'hidden' ? '' : 'hidden');
+	//     }, 1000);
+
+	// });
+</script>
