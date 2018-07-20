@@ -1,4 +1,4 @@
-# Word-Guess-Game
+# Word-Guess-Game: https://ekhin.github.io/Word-Guess-Game/
 
 Use key events to listen for the letters that the players will type.
 
